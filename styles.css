@@ -16,13 +16,37 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h2 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h2, a {
+    font-weight: 700;
+    color: #33A8DB;
+}
+
+p, .modules-list {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.banner, #transform-world {
+    border-bottom: 1px solid #33A8DB;
+}
+
+#transform-world, footer {
+    border-top: 1px solid #33A8DB;
+}
+
 .banner {
     height: 605px;
     width: 1440px;
     background-image: url("/assets/images/banner.png"), 
     linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(17, 75, 100, 0.9) 50%, rgb(0, 0, 0) 100%);
     display: inline-flex;
-    border-bottom: 1px solid #33A8DB;
 }
 
 .banner-content {
@@ -61,9 +85,7 @@ body {
 }
 
 .banner-content p {
-    color:hsl(0, 0%, 100%);
-    font-weight: 400;
-    font-size: 20px;
+    font-size: 20px !important;
     text-align: justify;
 }
 
@@ -72,7 +94,6 @@ body {
     width: 326px;
     border: 2px solid;
     border-color: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
-
     text-align: center;
     font-weight: 900;
     font-size: 16px;
@@ -94,25 +115,11 @@ body {
 
 #course-content h2 {
     height: 38px;
-    color: #33A8DB;
-    font-weight: 700;
-    font-size: 32px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 #course-content p {
     margin-top: 30px;
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 16px;
     text-align: center;
-}
-
-.modules-list {
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
 }
 
 .modules-list span {
@@ -125,12 +132,10 @@ body {
     height: 51px;
     padding: 16px, 127px, 16px, 127px;
     margin-top: 20px;
-
     border: 1px solid #33A8DB;
     border-radius: 80px;
     box-shadow: -2px 6px 4px 0px #00000066 inset;
     background: #252525;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,19 +147,15 @@ body {
     background-image: url("/assets/images/woman-code.png");
     background-size: cover;
     background-attachment: fixed; 
-    border-top: 1px solid #33A8DB;
-    border-bottom: 1px solid #33A8DB;
 }
 
 #transform-world p {
     margin-top: 110px;
     margin-left: 198px;
     width: 244px;
-
-    color: #FFFFFF;
     text-shadow: 3px 2px #33A8DB;
-    font-weight: 900;
-    font-size: 40px;
+    font-weight: 900 !important;
+    font-size: 40px !important;
     text-transform: lowercase;
 }
 
@@ -166,13 +167,8 @@ body {
 }
 
 #professional-challenges h2 {
-    color: #33A8DB;
     width: 746px;
     line-height: 37.57px;
-    letter-spacing: 2px;
-    font-size: 32px;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 #professional-challenges img {
@@ -183,9 +179,6 @@ body {
 
 #professional-challenges p {
     width: 792px;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 400;
     margin-top: 40px;
     margin-bottom: 91px;
 }
@@ -197,7 +190,6 @@ body {
 
 footer {
     background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
-    border-top: 1px solid #33A8DB;
     height: 170px;
     display: flex;
     flex-direction: column;
@@ -209,16 +201,9 @@ footer {
 }
 
 footer p {
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 400;
     margin-top: 10px;
-    margin-bottom: ;
 }
 
 footer a {
-    color: #33A8DB;
     text-decoration: none;
-    font-weight: 700;
 }
-
